@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %} 
+
+
+
+{% block title %} home {% endblock title %}
+
+{% block link %} <style>body{ background-image: url('../static/img/car.jpg'); background-size: cover;} .bt{border: none;}</style> {% endblock link %}
+
+
+{% block body%} 
+<form action="/logout" method="post">
+ {% csrf_token %}
+
+    <nav class="bg-dark"><h1 class="welcome text-center  text-success">Welcome {{username}}</h1></nav>
+        {% for message in messages %}
+        {{message}}
+        
+        {% endfor %}
+
+
+
+<div>
+<button  class="bt fs-4 btn-transparent bg-transparent text-warning position-absolute bottom-0 end-0">Log out</button>
+</div>
+</form>
+{% endblock body %}

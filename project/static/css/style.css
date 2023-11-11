@@ -1,0 +1,45 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff !important;
+    background-position: center center;
+    background-attachment : fixed;
+    
+    
+}
+.container{
+    width: 350px !important;
+    height: 55vh;
+    margin-top: 25vh;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.7);
+}
+.form{
+    width: 80%;
+    border-radius: 15px;
+    height: 40px;
+    margin-left: 10%;
+    border-color: #fff;
+    justify-content: 10px;
+    
+}
+.log-txt{
+    text-decoration: underline;
+}
+::placeholder{
+    color: #fff;
+    padding-left: 8px;
+    justify-content: 10px;
+}
+.bt-log{
+    width: 30%;
+    height: 11%;
+    border-radius: 149px;
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: 500;
+}
+input.label{
+    left: 1rem;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: #121212 !important;
+}
+.lag{
+    background-color: #000000 !important;
+}
+.search{
+    position: fixed;
+}
+.collap{
+    margin-right: 22% ;
+    margin-top: 1%;
+}
+a{
+   text-decoration: none !important;
+}
+.modal-body{
+    width: 80% !important;
+}
+
+.form{
+    width: 100%;
+}
